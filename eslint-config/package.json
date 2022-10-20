@@ -2,7 +2,7 @@
   "name": "@shilong/eslint-config",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "lib/base.js",
   "type": "commonjs",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,12 +10,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "peerDependencies": {
+    "eslint": ">=7.4.0"
+  },
   "dependencies": {
     "eslint": "^8.25.0",
-    "eslint-config-airbnb-base": "^15.0.0",
-    "eslint-plugin-import": "^2.26.0"
-  },
-  "peerDependencies": {
-    "eslint": "^8.25.0"
+    "@antfu/eslint-config-basic": "^0.27.0"
   }
 }

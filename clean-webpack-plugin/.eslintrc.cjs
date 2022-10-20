@@ -1,4 +1,4 @@
 
 module.exports = {
-  extends: ['@shilong'],
+  extends: ['@shilong/eslint-config/lib/base.js'],
 };
