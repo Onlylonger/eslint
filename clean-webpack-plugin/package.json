@@ -1,0 +1,29 @@
+{
+  "name": "@shilong/clean-webpack-plugin",
+  "version": "1.0.0",
+  "description": "webpack clean plugin",
+  "main": "index.js",
+  "type": "module",
+  "files": [
+    "src/clean-webpack-plugin.js"
+  ],
+  "scripts": {
+    "test": "webpack --config ./test/webpack.config.js"
+  },
+  "keywords": [
+    "webpack",
+    "clean",
+    "output"
+  ],
+  "author": "Barry",
+  "license": "ISC",
+  "dependencies": {
+    "del": "^7.0.0"
+  },
+  "devDependencies": {
+    "@shilong/eslint-config": "file:../eslint-config",
+    "eslint": "^8.25.0",
+    "webpack": "^5.74.0",
+    "webpack-cli": "^4.10.0"
+  }
+}
